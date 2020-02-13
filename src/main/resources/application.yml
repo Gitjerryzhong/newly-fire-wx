@@ -1,0 +1,28 @@
+micronaut:
+  application:
+    name: newly-fire-wx
+  server:
+    port: 23100
+  io:
+    watch:
+      paths: src/main
+      restart: true
+jpa:
+  default:
+    properties:
+      hibernate:
+        bytecode:
+          provider: none
+        hbm2ddl:
+          auto: update
+        show_sql: true
+    entity-scan:
+jackson:
+  bean-introspection-module: true
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/bell
+    driverClassName: org.postgresql.Driver
+    username: tm
+    password: tm
+    schema-generate: UPDATE

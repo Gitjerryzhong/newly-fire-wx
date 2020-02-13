@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: newly.fire.wx
+---
+testFramework: spock
+sourceLanguage: groovy
