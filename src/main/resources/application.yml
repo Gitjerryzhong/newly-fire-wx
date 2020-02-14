@@ -26,3 +26,8 @@ datasources:
     username: tm
     password: tm
     schema-generate: UPDATE
+
+newlyfire:
+  wxValidateFile: 'D:\temp\wx'
+  appId: 'wx805948bb286e411a'
+  appSecret: 'd3af956bd82abdf5574a26f37859b803'
